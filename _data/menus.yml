@@ -2,15 +2,14 @@
   url: /
   external: false
 
-- title: archive
-  url: /archive/
-  external: false
-
 - title: about
   url: /about/
-  external: false # set true if you using external link, see below
+  external: false 
 
-# Example:
-# - title: github
-#   url: https://github.com/piharpi/jekyll-klise
-#   external: true
+- title: github
+  url: https://github.com/jchapuis
+  external: true
+
+- title: linkedin
+  url: https://www.linkedin.com/in/jonaschapuis
+  external: true

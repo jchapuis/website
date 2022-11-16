@@ -6,6 +6,11 @@
   }
 }
 
+// TOC
+.section-nav {
+  font-size: 14px;
+}
+
 // Post title
 .header {
   margin-top: 7.8em;
@@ -85,6 +90,18 @@
       font-style: italic;
       font-size: $small-font-size;
     }
+  }
+
+  .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-animation: 0.5s ease-in forwards fadein;
+    animation: 0.5s ease-in forwards fadein;
+    opacity: 1;
   }
 
   a {

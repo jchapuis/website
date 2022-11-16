@@ -3,7 +3,19 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+<h3 class="posts-item-note" aria-label="Medium Posts">Medium Posts</h3>
+{%- for post in site.medium_posts -%}
+<article class="post-item">
+  <span class="post-item-date">{{ post.pub_date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ post.medium_link }}">{{ post.title | escape }}</a>
+  </h4>
+</article>
+{%- endfor -%}
+
+<hr align=center; size=25px;/>
+
+<h3 class="posts-item-note" aria-label="Older Posts">Older Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>

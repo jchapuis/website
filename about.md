@@ -1,18 +1,20 @@
 ---
-title: Colophon
+title: Jonas Chapuis, Ph.D
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Principal Software Engineer.
 comments: false
 ---
+{:refdef: style="text-align: center;"}
+![photo](/assets/img/photo.png){:class="photo"}
+{: refdef}
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Passionate software engineer and functional coder. I love creating systems that scale and delight users. 
 
-If you have a question about him or else, just send a letter to him.
+I'm currently at ZF as a principal Scala engineer, where we bring the fleet-orchestration technology we developed at Bestmile to a large scale with multi-thousand vehicle fleets.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+Previously I was employee #10 at Nexthink where I made important contributions to its revolutionary software for user-centric enterprise IT, which has now grown to a billion-dollar worth business. 
 
-**may u needs ✨**
+Before Nexthink, I had created an application for computer-aided surgery which was used at several hospitals, for which I earned my Ph.D. at the University of Bern in 2006. I am also an EPFL graduate, where I earned my M.Sc. in 2001.
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+I've also done some teaching at the HEIG-VD engineering school and I sometimes speak at conferences and meetups.
