@@ -18,8 +18,8 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://jonaschapuis.com" 
-baseurl: "/website"
+url: https://jonaschapuis.com
+baseurl: /website
 permalink: /:year/:month/:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
