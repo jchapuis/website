@@ -15,11 +15,11 @@ author:
   username: jchapuis # general username
   github: jchapuis # github username
   twitter: JonasChapuis # twitter username
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
 url: https://jchapuis.github.io
-baseurl: /website/
+baseurl: /website
 permalink: /:year/:month/:title/
 google_analytics: # leave it blank if not wish
 fb_appid:

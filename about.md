@@ -6,7 +6,7 @@ excerpt: Principal Software Engineer.
 comments: false
 ---
 {:refdef: style="text-align: center;"}
-![photo](/assets/img/photo.png){:class="photo"}
+![photo]({% link /assets/img/photo.png %}){:class="photo"}
 {: refdef}
 
 Passionate software engineer and functional coder. I love creating systems that scale and delight users. 
